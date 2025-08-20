@@ -1,14 +1,12 @@
 # Custom_Build_ImmortalWrt
 Auto Build ImmortalWrt
 
-
 ## 介绍
 它是一个工作流。可快速构建 带docker且支持自定义固件大小的 immortalWrt
 > 1、支持自定义固件大小 默认1GB <br>
 > 2、支持可选预安装docker（可选）<br>
 > 3、支持按需增加第三方软件<br>
 > 4、点击这里查看👉🏻[全部支持的机型列表](https://github.com/wukongdaily/AutoBuildImmortalWrt/blob/master/SUPPORT.md) 👈🏻
-
 
 ## 如何查询imm仓库内有哪些插件
 https://mirrors.sjtug.sjtu.edu.cn/immortalwrt/releases/24.10.2/packages/x86_64/luci/
@@ -69,7 +67,7 @@ https://wkdaily.cpolar.cn/15
 - https://github.com/sirpdboy/luci-theme-kucat
 - https://github.com/AdguardTeam/AdGuardHome
 - https://github.com/kiddin9/kwrt-packages
-<details>
+</details>
 
 
 # 🌟来源
