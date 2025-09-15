@@ -42,6 +42,10 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-netspeedtest luci-i18n-netspeedtest-z
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-lucky lucky"
 # 集客AC
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-gecoosac gecoosac"
+# 任务设置
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-taskplan luci-i18n-taskplan-zh-cn"
+# Easytier
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES easytier luci-app-easytier"
 
 # ============= Kevin 私人库 ==============
 # udpxy
