@@ -5,14 +5,30 @@ Auto Build ImmortalWrt
 它是一个工作流。可快速构建 带docker且支持自定义固件大小的 immortalWrt
 > 1、支持自定义固件大小 默认1GB <br>
 > 2、支持可选预安装docker（可选）<br>
-> 3、支持按需增加第三方软件 https://github.com/wukongdaily/AutoBuildImmortalWrt/discussions/209 <br>
-> 4、点击这里查看👉🏻[全部支持的机型列表](https://github.com/wukongdaily/AutoBuildImmortalWrt/blob/master/SUPPORT.md) 👈🏻
+> 3、支持按需增加[第三方软件](https://github.com/wukongdaily/store/blob/master/README.md)  如何集成 https://github.com/wukongdaily/AutoBuildImmortalWrt/discussions/209 <br>
+> 4、点击这里查看👉🏻[全部支持的机型列表](https://github.com/wukongdaily/AutoBuildImmortalWrt/blob/master/SUPPORT.md) 👈🏻<br>
+> 5、在UI上 新增luci版本的可选项，默认最新版24.10.3 https://github.com/wukongdaily/AutoBuildImmortalWrt/discussions/426
+
+
+## 虚拟机建议用哪条工作流？
+<img width="30%" height="30%" alt="image" src="https://github.com/user-attachments/assets/743027e0-584a-4842-bfb3-0dff22de9101" /> <br>
+虚拟机用户建议直接构建ISO镜像 此过程分2个阶段 阶段一构建固件imm 阶段二将其封装iso格式的安装器 总计耗时大约7-8分钟  <br>
+ISO在虚拟机引导后 跑码结束后，在命令行输入 `ddd` 按提示 完成虚拟磁盘的写入（安装immortalwrt到虚拟磁盘）<br>
+这样做也比较灵活 避免了格式转换和解压 同时还可以指定安装某个磁盘 而安装后的磁盘剩余空间也能加以利用。<br>
+详细的解说 可以参考我的另一个项目 [img-installer](https://github.com/wukongdaily/armbian-installer) 
+
+## 虚拟机用户使用的教学⬇️ 
+[![操作步骤](https://img.shields.io/badge/YouTube-123456?logo=youtube&labelColor=ff0000)](https://www.youtube.com/watch?v=ftSE3wSJi64) [![Bilibili](https://img.shields.io/badge/Bilibili-123456?logo=bilibili&logoColor=fff&labelColor=fb7299)](https://www.bilibili.com/video/BV1enxMzwEUe/)
 
 ## 如何查询imm仓库内有哪些插件
 https://mirrors.sjtug.sjtu.edu.cn/immortalwrt/releases/24.10.2/packages/x86_64/luci/
 ## 如何查询imm仓库外目前可以集成哪些插件
 https://github.com/wukongdaily/store
 > 具体方法 https://github.com/wukongdaily/AutoBuildImmortalWrt/discussions/209
+## 【视频教程】如何集成第三方插件？
+https://www.youtube.com/watch?v=KN6AJYV1hBI <br>
+https://www.youtube.com/watch?v=7i6BQeitUtE
+
 
 ## 旁路由的用户必读
 近期不少用户修改配置文件中的默认ip地址，误认为这个工作流可以直接设置旁路ip。这是巨大的误解，这样设置就乱套了。<br>
