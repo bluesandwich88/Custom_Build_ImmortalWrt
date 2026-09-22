@@ -237,5 +237,3 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES bash quickfile luci-app-quickfile luci-i18n-qu
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-ddns-zh-cn"
 #网络共享
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-samba4-zh-cn"
-# VPN
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-proto-wireguard"
